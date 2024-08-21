@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3324" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="773" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,9 +61,9 @@
             <mxPoint x="1370" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EZd1fUognVlDvctC3xu0-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EZd1fUognVlDvctC3xu0-50" target="EZd1fUognVlDvctC3xu0-79">
+        <mxCell id="EZd1fUognVlDvctC3xu0-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EZd1fUognVlDvctC3xu0-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1292.5" y="260" as="targetPoint" />
+            <mxPoint x="1338.75" y="537.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EZd1fUognVlDvctC3xu0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EZd1fUognVlDvctC3xu0-50" target="EZd1fUognVlDvctC3xu0-58">
@@ -87,11 +87,8 @@
         <mxCell id="EZd1fUognVlDvctC3xu0-59" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="EZd1fUognVlDvctC3xu0-58">
           <mxGeometry x="8.75" y="30" width="50" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="EZd1fUognVlDvctC3xu0-74" value="JMX endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EZd1fUognVlDvctC3xu0-58">
+        <mxCell id="EZd1fUognVlDvctC3xu0-74" value="Jolokia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="EZd1fUognVlDvctC3xu0-58">
           <mxGeometry x="58.75" y="85" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EZd1fUognVlDvctC3xu0-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="EZd1fUognVlDvctC3xu0-58">
-          <mxGeometry x="60" y="80" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EZd1fUognVlDvctC3xu0-76" value="Broker-pod" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1250" y="422.5" width="177.5" height="115" as="geometry" />
@@ -99,11 +96,8 @@
         <mxCell id="EZd1fUognVlDvctC3xu0-77" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="EZd1fUognVlDvctC3xu0-76">
           <mxGeometry x="8.75" y="30" width="50" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="EZd1fUognVlDvctC3xu0-78" value="JMX endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EZd1fUognVlDvctC3xu0-76">
+        <mxCell id="EZd1fUognVlDvctC3xu0-78" value="Jolokia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="EZd1fUognVlDvctC3xu0-76">
           <mxGeometry x="58.75" y="85" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EZd1fUognVlDvctC3xu0-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="EZd1fUognVlDvctC3xu0-76">
-          <mxGeometry x="60" y="80" width="60" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
