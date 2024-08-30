@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
-    <mxGraphModel dx="1404" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3324" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -18,9 +18,6 @@
         </mxCell>
         <mxCell id="2mRo7xvS9CaFnTbKlRw5-6" value="Acceptors" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="680" y="620" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2mRo7xvS9CaFnTbKlRw5-8" value="Connectors" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="620" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2mRo7xvS9CaFnTbKlRw5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="2mRo7xvS9CaFnTbKlRw5-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -97,8 +94,17 @@
         <mxCell id="2mRo7xvS9CaFnTbKlRw5-50" value="RMI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_pwtZZ6HhOfHTfCX77mX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2mRo7xvS9CaFnTbKlRw5-30" target="2mRo7xvS9CaFnTbKlRw5-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_pwtZZ6HhOfHTfCX77mX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2mRo7xvS9CaFnTbKlRw5-8" target="2mRo7xvS9CaFnTbKlRw5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1152" y="950" />
+              <mxPoint x="1152" y="780" />
+              <mxPoint x="738" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2mRo7xvS9CaFnTbKlRw5-8" value="Connectors" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1032" y="930" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
