@@ -56,8 +56,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOfLZLjCSvr9KJ62sI_o-1" value="If no token in session OR token nearly expired" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="120" width="420" height="130" as="geometry" />
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-1" value="If no jolokia auth token in session OR Oath token nearly expired" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="1040" height="330" as="geometry" />
         </mxCell>
         <mxCell id="AOfLZLjCSvr9KJ62sI_o-2" value=":JolokiaApiServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="620" y="40" width="100" height="700" as="geometry" />
@@ -72,12 +72,12 @@
           <mxGeometry x="45" y="290" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AOfLZLjCSvr9KJ62sI_o-4" value=":PodXyz" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="900" y="40" width="100" height="700" as="geometry" />
+          <mxGeometry x="980" y="30" width="100" height="700" as="geometry" />
         </mxCell>
         <mxCell id="AOfLZLjCSvr9KJ62sI_o-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AOfLZLjCSvr9KJ62sI_o-4">
           <mxGeometry x="42.5" y="450" width="15" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="AOfLZLjCSvr9KJ62sI_o-7" value="/getAddresses + token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="AOfLZLjCSvr9KJ62sI_o-6">
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-7" value="/getAddresses + jolokia auth token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="AOfLZLjCSvr9KJ62sI_o-6">
           <mxGeometry x="-0.008" y="5" relative="1" as="geometry">
             <mxPoint x="20" y="495" as="sourcePoint" />
             <mxPoint x="664.5" y="495" as="targetPoint" />
@@ -90,7 +90,7 @@
             <mxPoint x="665" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOfLZLjCSvr9KJ62sI_o-12" value="return json" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-12" value="return json" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="AOfLZLjCSvr9KJ62sI_o-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="590" as="targetPoint" />
             <mxPoint x="942.5" y="590" as="sourcePoint" />
@@ -99,10 +99,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOfLZLjCSvr9KJ62sI_o-10" value="jmx call to get addresses + token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" target="AOfLZLjCSvr9KJ62sI_o-5" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-10" value="jmx call to get addresses + token from memory" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" target="AOfLZLjCSvr9KJ62sI_o-5" parent="1">
+          <mxGeometry x="-0.0013" relative="1" as="geometry">
             <mxPoint x="680" y="500" as="sourcePoint" />
             <mxPoint x="944.5" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AOfLZLjCSvr9KJ62sI_o-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
@@ -117,7 +118,7 @@
             <mxPoint x="260" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOfLZLjCSvr9KJ62sI_o-19" value="return token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.607;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="AOfLZLjCSvr9KJ62sI_o-21" parent="1" target="AOfLZLjCSvr9KJ62sI_o-17">
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-19" value="return jolokia auth token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.607;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="AOfLZLjCSvr9KJ62sI_o-21" parent="1" target="AOfLZLjCSvr9KJ62sI_o-17">
           <mxGeometry x="-0.0011" relative="1" as="geometry">
             <mxPoint x="95" y="430" as="targetPoint" />
             <mxPoint x="664.5" y="430" as="sourcePoint" />
@@ -142,6 +143,15 @@
             <mxPoint x="550" y="300" as="sourcePoint" />
             <mxPoint x="470" y="300" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-26" value="When validity is okay, the jolokia API server stores the Actor&#39;s token in memory and issues a jolokia token" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AOfLZLjCSvr9KJ62sI_o-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AOfLZLjCSvr9KJ62sI_o-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="380" as="sourcePoint" />
+            <mxPoint x="270" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
