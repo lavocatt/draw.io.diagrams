@@ -22,7 +22,7 @@
           <mxGeometry x="45" y="500" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="JjkQo1qTZLQn8AvgYDJJ-12" value="If no jolokia auth token in session" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="120" width="1050" height="170" as="geometry" />
+          <mxGeometry x="50" y="120" width="920" height="170" as="geometry" />
         </mxCell>
         <mxCell id="JjkQo1qTZLQn8AvgYDJJ-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="JjkQo1qTZLQn8AvgYDJJ-12">
           <mxGeometry x="40" y="30" width="10" height="120" as="geometry" />
